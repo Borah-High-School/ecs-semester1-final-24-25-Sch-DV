@@ -30,7 +30,7 @@ body{
     border-color: darkviolet;
     background-color: #d41ed4;
     border-style: solid;
-    color: violet
+    color: violet;
 }
 .history{
     border-color: darkblue;
@@ -42,17 +42,43 @@ body{
     border-color: darkgreen;
     background-color: green;
     border-style: solid;
-    color: lightgreen
+    color: lightgreen;
 }
 .bghome{
-    background-color: rgb(248, 228, 189);
+    background-color: floralwhite;
 }
-.bgdem {
+.bghist {
     background-color: #b7ddff;
 }
-.bgsrc {
-    background-color: #b5d9b5
+.bgexamp {
+    background-color: #b5d9b5;
 }
 a {
-    color: inherit
+    color: inherit;
+}
+.link {
+    color: lightblue;
+}
+.link:active {
+    color: red;
+}
+.link:visited {
+    color: purple;
+}
+.pac{
+    width: 200px;
+    align-self: center;
+}
+.ping{
+    width: 300px;
+}
+
+.gol{
+    width: 500px;
+    align-self: center;
+}
+.special{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
 }
