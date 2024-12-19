@@ -3,8 +3,43 @@
 }
 .body{
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
 }
 .center {
     display: flex;
     justify-content: center;
+}
+  .navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 450px;
+    align-self: center}
+.scenter{
+  display: flex;
+  align-self: center;
+}
+.selected{
+    border-color: black;
+    background-color: yellow;
+    border-style: solid;
+}
+.home{
+    border-color: darkviolet;
+    background-color: #d41ed4;
+    border-style: solid;
+    color: violet
+}
+.history{
+    border-color: darkblue;
+    background-color: #0000e7;
+    border-style: solid;
+    color: #8cb2bf;
+}
+.examples{
+    border-color: darkgreen;
+    background-color: green;
+    border-style: solid;
+    color: lightgreen
 }
